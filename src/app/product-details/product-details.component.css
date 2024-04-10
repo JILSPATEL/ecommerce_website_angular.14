@@ -1,0 +1,75 @@
+.product-image {
+    width: 100%;
+    height: 400px;
+    object-fit: contain;
+    box-shadow: 0 0 10px rgba(132, 0, 255, 0.5);
+}
+
+.product-color {
+    border: 3px solid black;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.product-details {
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+h1,
+h5,
+h6 {
+    margin-bottom: 20px;
+}
+
+.quantity-group {
+    margin-top: 20x;
+
+}
+
+.quantity-group button {
+    padding: 10px;
+    border-radius: 80%;
+    border: 1px solid rgb(81, 6, 151);
+    color: white;
+    background-color: rgb(81, 6, 151);
+    cursor: pointer;
+}
+
+.quantity-group button:hover {
+    background-color: rgb(139, 28, 243);
+    border: 1px solid rgb(139, 28, 243);
+}
+
+.quantity-group input {
+    width: 50px;
+    padding: 5px;
+    border: none;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.button-product-details {
+    border: 1px solid rgb(81, 6, 151);
+    color: white;
+    background-color: rgb(81, 6, 151);
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(132, 0, 255, 0.5);
+    border-radius: 5px;
+    width: 150px;
+    height: 40px;
+    margin: auto;
+    margin-right: 10px;
+    margin-bottom: 15px;
+}
+
+.button-product-details:hover {
+    background-color: rgb(139, 28, 243);
+    border: 1px solid rgb(139, 28, 243);
+}
+
+.product-details h6 {
+    font-weight: bold;
+}

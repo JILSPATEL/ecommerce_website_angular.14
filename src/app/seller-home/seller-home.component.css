@@ -1,0 +1,28 @@
+table {
+    text-align: left;
+    color: rgb(81, 6, 151);
+    border-collapse: collapse;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+table td,
+table th {
+    border: 1px solid rgb(81, 6, 151);
+    padding: 10px;
+    min-height: 160px;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+}
+
+h1 {
+    color: rgb(81, 6, 151);
+    text-align: center;
+}
+
+.icons a {
+    color: rgb(81, 6, 151);
+}

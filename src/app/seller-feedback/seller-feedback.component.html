@@ -1,0 +1,12 @@
+<div *ngFor="let feedback of feedbackList" class="feedback-item">
+  <h3>{{ feedback.customerName | titlecase}}</h3>
+  <div>
+    <p>Rating:</p> {{ feedback.rating }}
+  </div>
+  <div>
+    <p>Product:</p> {{ feedback.productName }}
+  </div>
+  <div>
+    <p>Review:</p> {{ feedback.review }}
+  </div>
+</div>

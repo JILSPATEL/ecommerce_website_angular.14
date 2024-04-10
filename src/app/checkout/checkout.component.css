@@ -1,0 +1,21 @@
+.checkout h1 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: rgb(81, 16, 151);
+}
+
+.checkout h3,
+h4 {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+
+.adr-form {
+    color: rgb(81, 16, 151);
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}

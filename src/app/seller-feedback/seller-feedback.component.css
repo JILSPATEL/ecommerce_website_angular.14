@@ -1,0 +1,31 @@
+.feedback-item {
+  width: 100%;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 10px rgba(132, 0, 255, 0.5);
+}
+
+.feedback-item h3 {
+  margin-top: 0;
+  color: rgb(81, 6, 151);
+}
+
+.feedback-item p {
+  margin: 5px 0;
+}
+
+.feedback-item p:first-child {
+  margin-top: 0;
+}
+
+.feedback-item p:last-child {
+  margin-bottom: 0;
+}
+
+.feedback-item p {
+  font-weight: bold;
+}

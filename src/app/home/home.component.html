@@ -1,0 +1,56 @@
+<h1 class="heading-title">Wellcome To Our Store</h1>
+<ngb-carousel *ngIf="popularProducts">
+    <ng-template *ngFor="let item of popularProducts" ngbSlide>
+        <div class="picsum-img-wrapper">
+            <a routerLink="/details/{{item.id}}"> <img class="product-header-image" src="{{item.image}}"
+                    alt="Random first slide" />
+            </a>
+        </div>
+        <div class="carousel-caption">
+            <h3>{{item.name}}</h3>
+            <p>{{item.description}}</p>
+        </div>
+    </ng-template>
+</ngb-carousel>
+<div class="product-list-wrapper">
+    <h1>Products</h1>
+    <div class="row">
+        <div class="col-sm-3" *ngFor="let item of trendyProducts">
+            <div class="product-item">
+                <img src="{{item.image}}" alt="">
+
+                <div class="product-details">
+                    <h6 class="name-head">{{item.name}}</h6>
+                    <div class="product-price">
+                        <h6>Price: ₹{{item.price}}</h6>
+                    </div>
+                    <div class="product-color">
+                        <h6>Color: {{item.color}}</h6>
+                    </div>
+                    <div class="product-footer">
+                        <a routerLink="/details/{{item.id}}"><button class="form-button-details">View
+                                Details</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="footer">
+    <ul>
+        <li>
+            <a routerLink="seller-auth">Become a Seller</a>
+        </li>
+        <li>
+            <a href="">Terms and Conditions</a>
+        </li>
+        <li>
+            <a routerLink="footer/contact-us">Contact-us</a>
+        </li>
+        <li>
+            <a routerLink="footer/feedback">Feedback</a>
+        </li>
+    </ul>
+    <p class="">© 2024 All Right Reserve By ShopCart.com</p>
+
+</div>

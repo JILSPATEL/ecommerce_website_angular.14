@@ -1,0 +1,218 @@
+{
+  "seller": [
+    {
+      "id": "41c4",
+      "name": "jils",
+      "email": "jils@seller.com",
+      "password": "abc@123"
+    },
+    {
+      "id": "9b95",
+      "name": "seller1",
+      "password": "seller1@123",
+      "email": "seller1@gmail.com"
+    }
+  ],
+  "products": [
+    {
+      "name": "Samsung m33 5G",
+      "price": "18999",
+      "category": "Mobile",
+      "color": "Darkgreen",
+      "description": "The Samsung M33 5G offers exceptional performance and features in the midrange segment, delivering a seamless 5G experience alongside top-tier mobile capabilities.",
+      "image": "https://m.media-amazon.com/images/I/41t61osAZHL.jpg",
+      "id": "6fdf"
+    },
+    {
+      "name": "Samsung S24 Ultra",
+      "price": "139999",
+      "category": "Mobile",
+      "color": "Black",
+      "description": "The Samsung Galaxy S24 Ultra stands out as a top-tier mobile device, excelling in handling heavy tasks effortlessly, making it the ideal choice for demanding users seeking unparalleled performance.",
+      "image": "https://ampro.in/wp-content/uploads/2024/01/Samsung-Galaxy-S24-Ultra-5G-5-2.jpg",
+      "id": "8fe3"
+    },
+    {
+      "name": "Dell Gaming Leptop",
+      "price": "79999",
+      "category": "Leptop",
+      "color": "Darkgray",
+      "description": "\nThe Dell gaming laptop with an i5 processor offers a compelling combination of performance and affordability, delivering an exceptional gaming experience with its powerful processing capabilities and robust features.",
+      "image": "https://images-cdn.ubuy.co.in/634f18d1c43db308a82faefa-dell-g15-5511-gaming-laptop-2021.jpg",
+      "id": "2b75"
+    },
+    {
+      "name": "Apple Macbook Leptop",
+      "price": "149999",
+      "category": "Leptop",
+      "color": "Gray",
+      "description": "\nThe Apple MacBook Air is renowned for its seamless integration, exceptional performance, and reliability, making it the best laptop for everyday tasks.",
+      "image": "https://5.imimg.com/data5/WB/IN/SI/SELLER-11247776/apple-macbook-laptop.jpg",
+      "id": "4ec4"
+    },
+    {
+      "name": "Sony Bravia 55\" 4K TV",
+      "price": "139990",
+      "category": "TV",
+      "color": "Black",
+      "description": "\nExperience unparalleled visual immersion and audio excellence with the Sony Bravia 55'' 4K TV, offering the best combination of stunning resolution and superior sound quality for an unmatched entertainment experience.",
+      "image": "https://www.andreselectronicexperts.com/files/image/attachment/51257/55A80K.jpg",
+      "id": "5496"
+    },
+    {
+      "id": "6ae7",
+      "name": "Mi 32'' HD TV",
+      "price": "15000",
+      "category": "TV",
+      "color": "Black",
+      "description": "Enjoy immersive viewing experiences with the Mi 32\" HD TV, delivering vibrant visuals and crisp details in high definition, perfect for enhancing your entertainment setup with affordability and quality.",
+      "image": "https://manoharmobiles.com/wp-content/uploads/2022/01/mi-tv-4a-pro-80-cm-32-inches-hd-ready-android-led-tv-black-with-data-saver-500x500-1.jpg"
+    },
+    {
+      "id": "ddf6",
+      "name": "Canon Camera",
+      "price": "126990",
+      "category": "Camera",
+      "color": "Darkgray",
+      "description": "Capture life's moments in stunning detail with a Canon camera, renowned for its exceptional image quality, reliability, and advanced features, making it the perfect choice for photographers of all levels.",
+      "image": "https://x.imastudent.com/content/0016823_canon-eos-90d-dslr-camera-with-18-135mm-lens_500.jpeg"
+    },
+    {
+      "name": "Sony A9 Mirrorless ",
+      "price": "320000",
+      "category": "Camera",
+      "color": "Black,White",
+      "description": "\nCapture life's moments with breathtaking clarity and precision using the Sony A9 Mirrorless Camera, renowned for its unparalleled speed, exceptional image quality, and advanced features, making it the ultimate choice for professional photographers and enthusiasts alike.",
+      "image": "https://cdn.fstoppers.com/styles/large-16-9/s3/lead/2017/07/sony-alpha-a9-camera-for-wildlife-photography-review.jpg",
+      "id": "a029"
+    }
+  ],
+  "users": [
+    {
+      "id": "d0ac",
+      "name": "Jils",
+      "email": "jils@user.com",
+      "password": "abc@123"
+    },
+    {
+      "id": "ff63",
+      "name": "user1",
+      "email": "user1@gmail.com",
+      "password": "user@123"
+    }
+  ],
+  "cart": [
+    {
+      "id": "7b03",
+      "name": "Samsung m33 5G",
+      "price": "18999",
+      "category": "Mobile",
+      "color": "Green",
+      "description": "Best Mobile of samsung in midrange",
+      "image": "https://m.media-amazon.com/images/I/41t61osAZHL.jpg",
+      "quantity": 1,
+      "productId": "6fdf",
+      "userId": null
+    },
+    {
+      "id": "a28b",
+      "name": "Dell Gaming Leptop",
+      "price": "79999",
+      "category": "Leptop",
+      "color": "Darkgray",
+      "description": "Best Gaming Leptop Having i5 Processor",
+      "image": "https://images-cdn.ubuy.co.in/634f18d1c43db308a82faefa-dell-g15-5511-gaming-laptop-2021.jpg",
+      "quantity": 1,
+      "productId": "2b75",
+      "userId": null
+    },
+    {
+      "id": "cf14",
+      "name": "Samsung S24 Ultra",
+      "price": "139999",
+      "category": "Mobile",
+      "color": "Black",
+      "description": "Best Mobile of Samsung for all heavy task",
+      "image": "https://ampro.in/wp-content/uploads/2024/01/Samsung-Galaxy-S24-Ultra-5G-5-2.jpg",
+      "quantity": 1,
+      "userId": "d0ac",
+      "productId": "8fe3"
+    },
+    {
+      "id": "33e8",
+      "name": "Apple Macbook Leptop",
+      "price": "149999",
+      "category": "Leptop",
+      "color": "Gray",
+      "description": "\nThe Apple MacBook Air is renowned for its seamless integration, exceptional performance, and reliability, making it the best laptop for everyday tasks.",
+      "image": "https://5.imimg.com/data5/WB/IN/SI/SELLER-11247776/apple-macbook-laptop.jpg",
+      "quantity": 1,
+      "userId": "d0ac",
+      "productId": "4ec4"
+    },
+    {
+      "id": "f99d",
+      "name": "Canon Camera",
+      "price": "126990",
+      "category": "Camera",
+      "color": "Darkgray",
+      "description": "Capture life's moments in stunning detail with a Canon camera, renowned for its exceptional image quality, reliability, and advanced features, making it the perfect choice for photographers of all levels.",
+      "image": "https://x.imastudent.com/content/0016823_canon-eos-90d-dslr-camera-with-18-135mm-lens_500.jpeg",
+      "quantity": 1,
+      "userId": "d0ac",
+      "productId": "ddf6"
+    }
+  ],
+  "orders": [
+    {
+      "id": "7cdc",
+      "name": "Jils",
+      "email": "jils@user.com",
+      "address": "Ahmedabad",
+      "pincode": 380006,
+      "contact": "9876543210",
+      "totalPrice": 80099,
+      "userId": "d0ac"
+    },
+    {
+      "id": "7649",
+      "name": "Jils",
+      "email": "jils@user.com",
+      "address": "Ahmedabad",
+      "pincode": 380006,
+      "contact": "9876543210",
+      "totalPrice": 160098,
+      "userId": "d0ac"
+    }
+  ],
+  "contact-us": [
+    {
+      "id": "a5c4",
+      "name": "Jils",
+      "email": "jils@user.com",
+      "message": "Good Product"
+    },
+    {
+      "id": "29ba",
+      "name": "Jils",
+      "email": "jils@user.com",
+      "message": "You Selleing GoodProduct"
+    }
+  ],
+  "feedback": [
+    {
+      "id": "b700",
+      "customerName": "jils patel",
+      "rating": 5,
+      "productName": "Samsung M33 5G",
+      "review": "The Samsung M33 5G impresses with its lightning-fast 5G connectivity, vibrant display, and long-lasting battery. Its top-notch camera ensures stunning photos in any lighting, making it a reliable and feature-rich smartphone choice."
+    },
+    {
+      "id": "9c55",
+      "customerName": "Emma Johnson",
+      "rating": 4,
+      "productName": "Sony 55\" 4K TV",
+      "review": "The Sony 55\" 4K TV delivers an immersive viewing experience with its stunning picture quality and vibrant colors. Its 4K resolution brings movies and shows to life, while the smart features provide easy access to a wide range of content. With sleek design and excellent performance, this TV is a top choice for any home entertainment setup."
+    }
+  ]
+}

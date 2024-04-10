@@ -1,0 +1,26 @@
+<div class="container">
+    <h1>Contact Us</h1>
+    <div class="contact-info">
+        <p><span>Address:</span> 1-5, Star Plaza, Opp XYZ Bank, New City, Ahmedabad-380006</p>
+        <p><span>Contact No:</span> 1800 123 4567</p>
+        <p><span>Email:</span> <a href="mailto:info@shopcart.com">info@shopcart.com</a></p>
+    </div>
+
+    <h2>Leave us a message</h2>
+    <form (submit)="submitForm()" #contactForm="ngForm">
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required [(ngModel)]="name" #nameInput="ngModel">
+        </div>
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required [(ngModel)]="email" #emailInput="ngModel">
+        </div>
+        <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required [(ngModel)]="message"
+                #messageInput="ngModel"></textarea>
+        </div>
+        <button type="submit" [disabled]="!contactForm.valid">Submit</button>
+    </form>
+</div>

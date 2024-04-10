@@ -1,0 +1,105 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav h1 {
+    color: rgb(81, 6, 151);
+    margin: 0;
+    font-size: 40px;
+}
+
+.nav ul {
+    display: inline-flex;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-weight: bold;
+}
+
+.nav ul li {
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+.nav ul a {
+    text-decoration: none;
+    color: rgb(81, 6, 151);
+    cursor: pointer;
+}
+
+.nav li a {
+    color: rgb(81, 6, 151);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.nav .nav-search input {
+    flex: 1;
+    color: rgb(81, 6, 151);
+    border: 1px solid rgb(81, 6, 151);
+    height: 39px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.nav .nav-search button {
+    height: 39px;
+    border: 1px solid blueviolet;
+    color: white;
+    background-color: rgb(81, 6, 151);
+    /* Green background */
+    cursor: pointer;
+    border-radius: 5px;
+    width: 80px;
+    margin-left: 5px;
+}
+
+.nav .nav-search {
+    flex: 1;
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5px;
+}
+
+h1 a {
+    color: rgb(81, 6, 151);
+    text-decoration: none;
+}
+
+.suggested-result {
+    position: absolute;
+    display: list-item !important;
+    z-index: 10;
+    background-color: #fff;
+    width: 300px;
+    top: 40px;
+    border: 1px solid #ddd;
+}
+
+.suggested-result li {
+    border: 1px solid #ddd;
+    padding: 5px;
+}
+
+.suggested-result li a {
+    cursor: pointer;
+    color: rgb(81, 6, 151);
+}
+
+.search-button {
+    height: 35px;
+    border: 1px solid blueviolet;
+    color: #ddd;
+    background-color: rgb(81, 6, 151);
+    /* Green background */
+    cursor: pointer;
+    border-radius: 3px;
+    width: 100px;
+}
+
+.search-button:hover {
+    background-color: rgb(139, 28, 243);
+    /* Darker green background on hover */
+}
