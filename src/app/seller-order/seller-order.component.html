@@ -1,0 +1,21 @@
+<div class="order-detail" *ngFor="let order of orders">
+  <h3>Order ID: {{ order.id }}</h3>
+  <p>Name: {{ order.name }}</p>
+  <p>Email: {{ order.email }}</p>
+  <p>Address: {{ order.address }}</p>
+  <p>Pincode: {{ order.pincode }}</p>
+  <p>Contact: {{ order.contact }}</p>
+  <p>Total Price: ₹{{ order.totalPrice }}</p>
+  <p>User ID: {{ order.userId }}</p>
+  <p>Order Status: {{ order.orderStatus }}</p>
+  <p>Items: {{ order.items }}</p>
+
+  <!-- Dropdown for selecting new status -->
+  <select [(ngModel)]="selectedStatus">
+    <option *ngFor="let status of orderStatusOptions" [value]="status">{{ status }}</option>
+  </select>
+
+  <!-- Button to update status -->
+  <button class="form-button-update" (click)="updateOrderStatus(order.id)">Update Status</button>
+  <hr>
+</div>

@@ -16,6 +16,7 @@ import { FooterComponent } from './footer/footer.component';
 import { FeedbackComponent } from './footer/feedback/feedback.component';
 import { ContactUsComponent } from './footer/contact-us/contact-us.component';
 import { SellerFeedbackComponent } from './seller-feedback/seller-feedback.component';
+import { SellerOrderComponent } from './seller-order/seller-order.component';
 
 const routes: Routes = [
 
@@ -74,6 +75,10 @@ const routes: Routes = [
   {
     component: SellerFeedbackComponent,
     path: 'seller-feedback'
+  },
+  {
+    component: SellerOrderComponent,
+    path: 'seller-order'
   }
 
 

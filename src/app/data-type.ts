@@ -50,8 +50,11 @@ export interface order {
     contact: string,
     totalPrice: number,
     userId: any,
-    id: any
+    id: any,
+    orderStatus: string, // New attribute
+    items: string // New attribute
 }
+
 
 export interface Feedback {
     customerName: string;

@@ -125,64 +125,44 @@
       "quantity": 1,
       "productId": "2b75",
       "userId": null
-    },
-    {
-      "id": "cf14",
-      "name": "Samsung S24 Ultra",
-      "price": "139999",
-      "category": "Mobile",
-      "color": "Black",
-      "description": "Best Mobile of Samsung for all heavy task",
-      "image": "https://ampro.in/wp-content/uploads/2024/01/Samsung-Galaxy-S24-Ultra-5G-5-2.jpg",
-      "quantity": 1,
-      "userId": "d0ac",
-      "productId": "8fe3"
-    },
-    {
-      "id": "33e8",
-      "name": "Apple Macbook Leptop",
-      "price": "149999",
-      "category": "Leptop",
-      "color": "Gray",
-      "description": "\nThe Apple MacBook Air is renowned for its seamless integration, exceptional performance, and reliability, making it the best laptop for everyday tasks.",
-      "image": "https://5.imimg.com/data5/WB/IN/SI/SELLER-11247776/apple-macbook-laptop.jpg",
-      "quantity": 1,
-      "userId": "d0ac",
-      "productId": "4ec4"
-    },
-    {
-      "id": "f99d",
-      "name": "Canon Camera",
-      "price": "126990",
-      "category": "Camera",
-      "color": "Darkgray",
-      "description": "Capture life's moments in stunning detail with a Canon camera, renowned for its exceptional image quality, reliability, and advanced features, making it the perfect choice for photographers of all levels.",
-      "image": "https://x.imastudent.com/content/0016823_canon-eos-90d-dslr-camera-with-18-135mm-lens_500.jpeg",
-      "quantity": 1,
-      "userId": "d0ac",
-      "productId": "ddf6"
     }
   ],
   "orders": [
     {
-      "id": "7cdc",
-      "name": "Jils",
-      "email": "jils@user.com",
-      "address": "Ahmedabad",
-      "pincode": 380006,
+      "id": "8d70",
+      "name": "jils",
+      "email": "jils@seller.com",
+      "address": "ahmedabad",
+      "pincode": 38000,
       "contact": "9876543210",
-      "totalPrice": 80099,
-      "userId": "d0ac"
+      "totalPrice": 155099,
+      "userId": "d0ac",
+      "orderStatus": "delivered",
+      "items": "Samsung S24 Ultra, Mi 32'' HD TV"
     },
     {
-      "id": "7649",
-      "name": "Jils",
-      "email": "jils@user.com",
-      "address": "Ahmedabad",
+      "id": "07ef",
+      "name": "jils",
+      "email": "jils@seller.com",
+      "address": "ahmedabad",
       "pincode": 380006,
       "contact": "9876543210",
-      "totalPrice": 160098,
-      "userId": "d0ac"
+      "totalPrice": 146089,
+      "userId": "d0ac",
+      "orderStatus": "inprogress",
+      "items": "Canon Camera, Samsung m33 5G"
+    },
+    {
+      "id": "432c",
+      "name": "jils",
+      "email": "jils@seller.com",
+      "address": "ahmedabad",
+      "pincode": 38006,
+      "contact": "9876543210",
+      "totalPrice": 80099,
+      "userId": "d0ac",
+      "orderStatus": "shipped",
+      "items": "Dell Gaming Leptop"
     }
   ],
   "contact-us": [

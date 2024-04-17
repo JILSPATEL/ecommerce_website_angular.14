@@ -26,6 +26,7 @@
       <li><a [routerLink]="cartItems>0?'cart-page':null">Cart({{cartItems}})</a></li>
     </ul>
     <ul *ngSwitchCase="'seller'">
+      <li><a routerLink="seller-order">My Orders</a></li>
       <li><a routerLink="seller-feedback">View Feedback</a></li>
       <li><a routerLink="seller-add-product">Add Product</a></li>
       <li><a routerLink="seller-home">Product List</a></li>

@@ -38,7 +38,9 @@ export class CheckoutComponent implements OnInit {
         ...data,
         totalPrice: this.totalPrice,
         userId,
-        id: undefined
+        id: undefined,
+        orderStatus: 'inprogress', // Set the initial order status
+        items: this.cartData?.map(item => item.name).join(', ') || '' // Extract and concatenate item names
       }
       this.cartData?.forEach((item) => {
         setTimeout(() => {
@@ -54,5 +56,6 @@ export class CheckoutComponent implements OnInit {
         }, 3000);
       })
     }
-  }
+}
+
 }

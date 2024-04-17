@@ -24,6 +24,7 @@ import { FeedbackComponent } from './footer/feedback/feedback.component';
 import { ContactUsComponent } from './footer/contact-us/contact-us.component';
 import { FaqComponent } from './footer/faq/faq.component';
 import { SellerFeedbackComponent } from './seller-feedback/seller-feedback.component';
+import { SellerOrderComponent } from './seller-order/seller-order.component';
 
 @NgModule({
   declarations: [
@@ -44,7 +45,8 @@ import { SellerFeedbackComponent } from './seller-feedback/seller-feedback.compo
     FeedbackComponent,
     ContactUsComponent,
     FaqComponent,
-    SellerFeedbackComponent
+    SellerFeedbackComponent,
+    SellerOrderComponent
   ],
   imports: [
     BrowserModule,

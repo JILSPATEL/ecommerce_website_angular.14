@@ -14,7 +14,7 @@
             <span>Status</span>
         </div>
         <div class="col-sm-2">
-            <span>Cancel Order</span>
+            <span>Action</span>
         </div>
     </div>
     <div class="row" *ngFor="let order of orderData">
@@ -28,11 +28,16 @@
             <span>₹{{order.totalPrice}}</span>
         </div>
         <div class="col-sm-2">
-            <span>In Progress</span>
+            <span>{{order.orderStatus}}</span>
         </div>
         <div class="col-sm-2">
-            <button class="form-button" (click)="cancelOrder(order.id)">Cancel Order</button>
+            <!-- Conditionally display buttons based on order status -->
+            <ng-container *ngIf="order.orderStatus !== 'delivered'; else feedbackButton">
+                <button class="form-button-order" (click)="cancelOrder(order.id)">Cancel Order</button>
+            </ng-container>
+            <ng-template #feedbackButton>
+                <button class="form-button-order" [routerLink]="'/footer/feedback'">Leave Feedback</button>
+            </ng-template>
         </div>
     </div>
-
 </div>

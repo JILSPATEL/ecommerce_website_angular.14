@@ -1,6 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { EventEmitter, Injectable } from '@angular/core';
 import { cart, order, product } from '../data-type';
+import { Observable } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
@@ -95,5 +96,11 @@ export class ProductService {
   }
   cancelOrder(orderId: any) {
     return this.http.delete('http://localhost:3000/orders/' + orderId);
+  }
+  getOrderDetails(): Observable<order[]> {
+    return this.http.get<order[]>('http://localhost:3000/orders');
+  }
+  updateOrderStatus(updatedOrder: order): Observable<any> {
+    return this.http.put(`http://localhost:3000/orders/${updatedOrder.id}`, updatedOrder);
   }
 }
