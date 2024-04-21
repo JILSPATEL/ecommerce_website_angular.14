@@ -8,7 +8,8 @@
             <form #orderData="ngForm" class="common-form" (ngSubmit)="orderNow(orderData.value)">
                 <input type="text" class="form-input" name="name" placeholder="Enter Your Name" ngModel />
                 <input type="text" class="form-input" name="email" placeholder="Enter User Email" ngModel />
-                <input type="text" class="form-input" name="address" placeholder="Enter User Address" ngModel />
+                <input type="text" class="form-input" name="address" placeholder="Enter User Address" rows="2"
+                    ngModel />
                 <input type="number" class="form-input" name="pincode" placeholder="Enter Pincode" ngModel />
                 <input type="text" class="form-input" name="contact" placeholder="Enter contact details" ngModel />
                 <button class="form-button">Order Now</button>

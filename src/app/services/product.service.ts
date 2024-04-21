@@ -103,4 +103,7 @@ export class ProductService {
   updateOrderStatus(updatedOrder: order): Observable<any> {
     return this.http.put(`http://localhost:3000/orders/${updatedOrder.id}`, updatedOrder);
   }
+  getOrderDetailsById(orderId: string): Observable<order> {
+    return this.http.get<order>('http://localhost:3000/orders/' + orderId);
+  }
 }

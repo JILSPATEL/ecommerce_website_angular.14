@@ -17,6 +17,7 @@ import { FeedbackComponent } from './footer/feedback/feedback.component';
 import { ContactUsComponent } from './footer/contact-us/contact-us.component';
 import { SellerFeedbackComponent } from './seller-feedback/seller-feedback.component';
 import { SellerOrderComponent } from './seller-order/seller-order.component';
+import { TrackOrderComponent } from './footer/track-order/track-order.component';
 
 const routes: Routes = [
 
@@ -71,6 +72,10 @@ const routes: Routes = [
   {
     component: ContactUsComponent,
     path: 'footer/contact-us'
+  },
+  {
+    component: TrackOrderComponent,
+    path: 'footer/track-order'
   },
   {
     component: SellerFeedbackComponent,

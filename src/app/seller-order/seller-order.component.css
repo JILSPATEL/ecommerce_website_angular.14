@@ -1,50 +1,58 @@
 .order-detail {
-    width: 100%;
-    max-width: 700px;
-    margin: 20px auto;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    background-color: #f9f9f9;
-    box-shadow: 0 0 10px rgba(132, 0, 255, 0.5);
+  width: 100%;
+  max-width: 700px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 10px rgba(52, 0, 100, 0.5);
 
 }
 
+.form-button-update {
+  height: 35px;
+  border: 1px solid rgb(34, 1, 65);
+  color: white;
+  background-color: rgb(38, 1, 72);
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(132, 0, 255, 0.5);
+  border-radius: 3px;
+}
+
 .order-detail h3 {
-    margin-top: 0;
-    color: rgb(81, 6, 151);
+  margin-top: 0;
+  color: rgb(81, 6, 151);
 }
 
 
 .order-detail p {
-    font-weight: bold;
+  font-weight: bold;
 }
 
-/* my-orders.component.css */
-
 .order-detail select {
-    width: 65%;
-    padding: 10px;
-    font-size: 16px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    background-color: #fff;
-    color: #333;
-    margin-right: 10px;
-    margin-top: 15px;
-    height: 40px;
-  }
-  
-  .order-detail select:hover {
-    border-color: #888;
-  }
-  
-  .order-detail select:focus {
-    outline: none;
-    border-color: #555;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
-  }
-  
-  .order-detail button {
-    width: 30%;
-  }
+  width: 65%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #333;
+  margin-right: 10px;
+  margin-top: 15px;
+  height: 40px;
+}
+
+.order-detail select:hover {
+  border-color: #888;
+}
+
+.order-detail select:focus {
+  outline: none;
+  border-color: #555;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.order-detail button {
+  width: 30%;
+}

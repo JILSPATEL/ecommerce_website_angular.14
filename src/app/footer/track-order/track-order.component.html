@@ -1,0 +1,29 @@
+<div class="container mt-5">
+  <h2>Track Order</h2>
+  <form [formGroup]="trackForm" (ngSubmit)="onSubmit()">
+    <div class="form-group">
+      <label for="orderId">Enter Order ID:</label>
+      <input type="text" class="form-control" id="orderId" formControlName="orderId">
+      <div
+        *ngIf="trackForm.controls['orderId'].invalid && (trackForm.controls['orderId'].dirty || trackForm.controls['orderId'].touched)"
+        class="text-danger">
+        <div *ngIf="trackForm.controls['orderId'].errors?.['required']">Order ID is required</div>
+      </div>
+    </div>
+    <button type="submit" class="btn-primary" [disabled]="trackForm.invalid || loading">Track</button>
+  </form>
+
+  <div *ngIf="orderFound">
+    <h2>Order Details</h2>
+    <p class="order-status"><strong>Order ID:</strong> {{ orderDetails?.id }}</p>
+    <p class="order-status"><strong>Status:</strong> Your Order is {{ orderDetails?.orderStatus }}</p>
+  </div>
+
+  <div *ngIf="!orderFound && !loading && trackForm.valid && trackForm.touched">
+    <p class="text-danger">Please check the Order ID and try again.</p>
+  </div>
+
+  <div *ngIf="loading">
+    <p>Loading...</p>
+  </div>
+</div>

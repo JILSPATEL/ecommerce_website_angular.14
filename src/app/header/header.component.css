@@ -48,7 +48,6 @@
     border: 1px solid blueviolet;
     color: white;
     background-color: rgb(81, 6, 151);
-    /* Green background */
     cursor: pointer;
     border-radius: 5px;
     width: 80px;
@@ -101,5 +100,4 @@ h1 a {
 
 .search-button:hover {
     background-color: rgb(139, 28, 243);
-    /* Darker green background on hover */
 }

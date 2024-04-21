@@ -31,8 +31,7 @@
             <span>{{order.orderStatus}}</span>
         </div>
         <div class="col-sm-2">
-            <!-- Conditionally display buttons based on order status -->
-            <ng-container *ngIf="order.orderStatus !== 'delivered'; else feedbackButton">
+            <ng-container *ngIf="order.orderStatus !== 'Delivered'; else feedbackButton">
                 <button class="form-button-order" (click)="cancelOrder(order.id)">Cancel Order</button>
             </ng-container>
             <ng-template #feedbackButton>

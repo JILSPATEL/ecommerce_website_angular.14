@@ -33,7 +33,6 @@ h2 {
 
 .form-group input[type="range"] {
     height: auto;
-    /* Adjust height for range input */
 }
 
 .form-group input[type="range"]::-webkit-slider-thumb {

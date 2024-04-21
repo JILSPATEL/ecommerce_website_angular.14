@@ -137,7 +137,7 @@
       "contact": "9876543210",
       "totalPrice": 155099,
       "userId": "d0ac",
-      "orderStatus": "delivered",
+      "orderStatus": "Delivered",
       "items": "Samsung S24 Ultra, Mi 32'' HD TV"
     },
     {
@@ -149,7 +149,7 @@
       "contact": "9876543210",
       "totalPrice": 146089,
       "userId": "d0ac",
-      "orderStatus": "inprogress",
+      "orderStatus": "InProgress",
       "items": "Canon Camera, Samsung m33 5G"
     },
     {
@@ -161,8 +161,20 @@
       "contact": "9876543210",
       "totalPrice": 80099,
       "userId": "d0ac",
-      "orderStatus": "shipped",
+      "orderStatus": "Shipped",
       "items": "Dell Gaming Leptop"
+    },
+    {
+      "id": "660b",
+      "name": "John Doe",
+      "email": "john@user.com",
+      "address": "123 Main Street, ABC Colony, Bangalore, Karnataka,  India.",
+      "pincode": 560001,
+      "contact": "9876543210",
+      "totalPrice": 220089,
+      "userId": "d0ac",
+      "orderStatus": "Packed",
+      "items": "Sony Bravia 55\" 4K TV, Dell Gaming Leptop"
     }
   ],
   "contact-us": [

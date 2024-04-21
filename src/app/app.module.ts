@@ -22,9 +22,10 @@ import { MyOrdersComponent } from './my-orders/my-orders.component';
 import { FooterComponent } from './footer/footer.component';
 import { FeedbackComponent } from './footer/feedback/feedback.component';
 import { ContactUsComponent } from './footer/contact-us/contact-us.component';
-import { FaqComponent } from './footer/faq/faq.component';
 import { SellerFeedbackComponent } from './seller-feedback/seller-feedback.component';
 import { SellerOrderComponent } from './seller-order/seller-order.component';
+import { TrackOrderComponent } from './footer/track-order/track-order.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -44,9 +45,9 @@ import { SellerOrderComponent } from './seller-order/seller-order.component';
     FooterComponent,
     FeedbackComponent,
     ContactUsComponent,
-    FaqComponent,
     SellerFeedbackComponent,
-    SellerOrderComponent
+    SellerOrderComponent,
+    TrackOrderComponent
   ],
   imports: [
     BrowserModule,
@@ -54,7 +55,8 @@ import { SellerOrderComponent } from './seller-order/seller-order.component';
     FormsModule,
     HttpClientModule,
     FontAwesomeModule,
-    NgbModule
+    NgbModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
