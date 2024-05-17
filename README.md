@@ -2,6 +2,34 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.3.
 
+## Steps For Execute Project In Any System:
+
+# Prerequisites
+
+Make sure you have the following installed on your machine:
+- **Angular CLI**: 14.1.3
+- **Node.js**: 16.17.0
+- **npm (Node Package Manager)**: 8.15.0
+
+# Installation
+
+Follow these steps to install and run the project:
+
+1. **Clone the repository**
+   `git clone https://github.com/JILSPATEL/ecommerce_website_angular.14.git`
+
+2. **Navigate to the project directory**
+   `cd your-repo-name`
+
+3. **Install dependencies**
+   `npm install`
+
+4. **Serve the application**
+   `ng serve`
+
+5. **Open the application in your browser**
+   By default, the application will be running at `http://localhost:4200/`. Open this URL in your browser to see the application.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
